@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(235, 235, 235);
+}
+#questao {
+    font-size: xx-large;
+}
+.links {
+    cursor: pointer;
+}
+.cardInputs {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1rem;
+    width: 100%;
+}
+.cardInputs div {
+    flex-wrap: wrap;
+}
+.inputs {
+    height: 40px;
+    width: 200px;
+    outline: none;
+    margin-left: 5px;
+    padding-left: 5px
+}
+.descricao {
+    font-size: larger;
+    min-width: 110px;
+    text-align: center;
+    margin-top: 15px;
+}
+#lista li:nth-child(odd){
+    background: #bdc9fffd;
+}
+#lista li {
+    padding-left: 8px;
+    text-align: center;
+}
+#lista p {
+    padding-left: 8px;
+    text-align: center;
+}
+#lista {
+    width: 200px;
+    border: solid 2px #000000;
+    padding-right: 8px;
+    color: #030029;
+}
+.hrow {
+    border-bottom: solid 2px rgb(9, 0, 139);
+    width: 100%;
+    padding-bottom: 10px;
+}
+.escolha {
+    margin: 5px
+}
+.success {
+    color: darkgreen;
+}
